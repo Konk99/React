@@ -92,6 +92,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Random list',
+    description: 'Example list',
+    image: 'src/images/notebook.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Another random list',
+    description: 'Another one!',
+    image: 'src/images/road.jpg',
+  },
 ];
 
 const columns = [
