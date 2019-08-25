@@ -4,10 +4,10 @@ import { getColumnsForList, createAction_addColumn } from '../../redux/columnsRe
 
 const mapStateToProps = (state, props) => {
   const id = props.match.params.id;
-  const filteredList = state.lists.filter(list => list.id == id);
+  const filteredList = state.lists.filter(list => list.id === id);
   const listParams = filteredList[0] || {};
 
-  return{
+  return {
     ...listParams,
     columns: getColumnsForList(state,id),
   };

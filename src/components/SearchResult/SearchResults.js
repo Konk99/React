@@ -38,7 +38,7 @@ class SearchResults extends React.Component {
                 {title}</h3>
             </div>
             <div className={styles.component}>
-              {cards.length>0 && cards.map(cardData => (
+              {cards.length > 0 && cards.map(cardData => (
                 <Card key={cardData.id} {...cardData} />
               ))}
             </div>
